@@ -1,0 +1,82 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+input {
+    outline: 0 !important;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*Basic conf*/
+button {
+    background: none;
+    border: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+/*Unique setting*/
+.container {
+    max-width: 1220px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.orange_btn{
+    width: 142px;
+    height: 54px;
+    background: #FF9C08;
+
+    border-radius: 10px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    color: black;
+    transition: background-color 0.5s ease;
+
+}
+.orange_btn:hover {
+
+    background: black;
+    color: #FF9C08; /* Изменяем цвет фона при наведении */
+}
+.flex-column{
+    flex-direction: column;
+}
